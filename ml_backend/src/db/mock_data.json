@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Укладка асфальтобетонных смесей (горячие и холодные)",
+    "temp_min": 5.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 0.0,
+    "normative": "СНиП 3.06.03-85 п.10.16",
+    "critical_factors": {
+      "rain_above": "Укладка разрешена только в сухую погоду"
+    },
+    "id": 1
+  },
+  {
+    "name": "Укладка асфальтобетонных смесей (тёплые смеси)",
+    "temp_min": -10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 0.0,
+    "normative": "СНиП 3.06.03-85 п.10.16",
+    "critical_factors": {
+      "rain_above": "Укладка разрешена только в сухую погоду"
+    },
+    "id": 2
+  },
+  {
+    "name": "Укладка асфальтобетонных смесей (горячие при t ≥0°C)",
+    "temp_min": 0.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 0.0,
+    "normative": "СНиП 3.06.03-85 п.10.16",
+    "critical_factors": {
+      "rain_above": "Укладка разрешена только в сухую погоду"
+    },
+    "id": 3
+  },
+  {
+    "name": "Укладка бетонной смеси для дорожных покрытий",
+    "temp_min": 5.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.06.03-85 п.5.2",
+    "critical_factors": {},
+    "id": 4
+  },
+  {
+    "name": "Бетонные работы (при среднесуточной Т <+5°C)",
+    "temp_min": 5.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.03.01-87 п.2.53",
+    "critical_factors": {},
+    "id": 5
+  },
+  {
+    "name": "Бетонные работы (при t >25°C, влажность <50%)",
+    "temp_min": -100.0,
+    "temp_max": 25.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.03.01-87 п.2.63",
+    "critical_factors": {
+      "humidity_min": 50,
+      "temp_above": "Требуются спец. меры по уходу за бетоном (жаркий климат)"
+    },
+    "id": 6
+  },
+  {
+    "name": "Дноуглубительные работы (зимние условия)",
+    "temp_min": -10.0,
+    "temp_max": 100.0,
+    "wind_max": 5.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.02.01-87 п.5.70",
+    "critical_factors": {},
+    "id": 7
+  },
+  {
+    "name": "Кровельные работы (общие)",
+    "temp_min": -30.0,
+    "temp_max": 60.0,
+    "wind_max": 50.0,
+    "rain_max": 0.0,
+    "normative": "СНиП 3.04.01-87 п.2.1",
+    "critical_factors": {
+      "rain_above": "Работы на кровле запрещены во время осадков"
+    },
+    "id": 8
+  },
+  {
+    "name": "Кровельные работы (горячие мастики)",
+    "temp_min": -20.0,
+    "temp_max": 60.0,
+    "wind_max": 50.0,
+    "rain_max": 0.0,
+    "normative": "СНиП 3.04.01-87 п.2.1",
+    "critical_factors": {},
+    "id": 9
+  },
+  {
+    "name": "Гидроизоляционные работы (цементные смеси)",
+    "temp_min": 5.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.2.1",
+    "critical_factors": {},
+    "id": 10
+  },
+  {
+    "name": "Сварка полиэтиленовых труб (ПВД/ПНД)",
+    "temp_min": -10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.05.04-85 п.3.61",
+    "critical_factors": {},
+    "id": 11
+  },
+  {
+    "name": "Штукатурные работы (внутренние помещения)",
+    "temp_min": 10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.1",
+    "critical_factors": {
+      "humidity_max": 60
+    },
+    "id": 12
+  },
+  {
+    "name": "Облицовка керамической плиткой (внутри)",
+    "temp_min": 10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.1",
+    "critical_factors": {
+      "humidity_max": 60
+    },
+    "id": 13
+  },
+  {
+    "name": "Оклейка обоями (внутри помещения)",
+    "temp_min": 10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.1",
+    "critical_factors": {
+      "humidity_max": 60
+    },
+    "id": 14
+  },
+  {
+    "name": "Покрытие лакокрасочное (натуральные смолы)",
+    "temp_min": 10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.2",
+    "critical_factors": {},
+    "id": 15
+  },
+  {
+    "name": "Покрытие лакокрасочное (синтетические смолы)",
+    "temp_min": 15.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.2",
+    "critical_factors": {},
+    "id": 16
+  },
+  {
+    "name": "Покрытие защитное (силикатные мастики)",
+    "temp_min": 10.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.2",
+    "critical_factors": {},
+    "id": 17
+  },
+  {
+    "name": "Покрытие защитное (эпоксидные смолы)",
+    "temp_min": 15.0,
+    "temp_max": 100.0,
+    "wind_max": 50.0,
+    "rain_max": 100.0,
+    "normative": "СНиП 3.04.01-87 п.3.2",
+    "critical_factors": {},
+    "id": 18
+  }
+]

@@ -30,3 +30,14 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+*/bin/
+*./node_modules/
+node_modules/
+
+# Generated API documentation
+weather-backend/shared/api/bundle/
+weather-backend/shared/api/docs/
+
+# Generated OpenAPI code
+weather-backend/shared/pkg/openapi/
+

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+tasks:
+  build:
+    desc: Build and start Docker containers
+    dir: ml_backend
+    cmds:
+      - docker compose up --build -d
+
+  up:
+    desc: Start Docker containers
+    dir: ml_backend
+    cmds:
+      - docker compose up -d
